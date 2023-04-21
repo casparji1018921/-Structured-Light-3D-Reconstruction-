@@ -6,7 +6,7 @@ This repository contains personal learning materials and code related to structu
 
 本代码库存放了个人学习结构光三维重建的学习内容和代码。本项目的主要目标是研究和实现各种结构光技术进行三维形状测量和重建，包括条纹投影轮廓术、二进制编码图案以及深度学习方法的应用。旨在分享和交流，帮助其他对该主题感兴趣的人。如有问题或建议，欢迎联系我！
 
-## Recent Papers (2017-2021) / 近期论文（2017-2021）
+## Recently reading Papers (2017-2021) / 近期阅读的论文（2017-2021）
 
 - [Dual-Frequency Phase-Shifting Profilometry With Color Fringe Projection](https://ieeexplore.ieee.org/document/7933261) / [双频相移轮廓术与彩色条纹投影](https://ieeexplore.ieee.org/document/7933261)
 - [Binary coded fringe pattern projection for 3D shape measurement](https://openaccess.thecvf.com/content_ICCV_2017_workshops/w2/html/Eltner_Binary_Coded_Fringe_ICCV_2017_paper.html) / [二进制编码条纹图案投影用于三维形状测量](https://openaccess.thecvf.com/content_ICCV_2017_workshops/w2/html/Eltner_Binary_Coded_Fringe_ICCV_2017_paper.html)
