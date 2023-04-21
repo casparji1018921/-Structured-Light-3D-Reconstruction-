@@ -2,19 +2,28 @@
 
 ## Fringe Projection Profilometry（条纹投影轮廓术）
 
-In fringe projection profilometry, sinusoidal fringe patterns are projected onto the object, and the deformed patterns are captured by a camera. The phase information is then extracted and unwrapped to obtain the 3D shape of the object. We've implemented a basic simulation of fringe projection profilometry with the addition of Gaussian noise and Gray code encoding.
+In fringe projection profilometry, sinusoidal fringe patterns are projected onto the object, and the deformed patterns are captured by a camera. The phase information is then extracted and unwrapped to obtain the 3D shape of the object. We've implemented a basic simulation of fringe projection profilometry with the addition of Gaussian noise and Gray code encoding. The implemented code simulates the fringe pattern projection, captures the deformed patterns, and reconstructs the 3D shape of the object.
 
-在条纹投影轮廓术中，正弦条纹图案投影到物体上，相机捕获到变形后的图案。然后提取相位信息并解包以获得物体的三维形状。我们实现了一个基本的条纹投影轮廓术模拟，增加了高斯噪声和格雷码编码。
+在条纹投影轮廓术中，正弦条纹图案投影到物体上，相机捕获到变形后的图案。然后提取相位信息并解包以获得物体的三维形状。我们实现了一个基本的条纹投影轮廓术模拟，增加了高斯噪声和格雷码编码。实现的代码模拟了条纹图案投影，捕获变形图案，并重建物体的三维形状。
 
 ## Binary Coded Patterns（二进制编码图案）
 
-Binary coded patterns are a type of structured light pattern that can be used for 3D shape measurement. They are more robust to noise compared to fringe projection profilometry. We've experimented with binary coded patterns and how they can be used for 3D shape reconstruction.
+Binary coded patterns are a type of structured light pattern that can be used for 3D shape measurement. They are more robust to noise compared to fringe projection profilometry. We've experimented with binary coded patterns and how they can be used for 3D shape reconstruction. The implemented code generates binary coded patterns, projects them onto the object, captures the deformed patterns, and reconstructs the object's 3D shape.
 
-二进制编码图案是一种用于三维形状测量的结构光图案。与条纹投影轮廓术相比，它们对噪声更具鲁棒性。我们尝试了二进制编码图案及其在三维形状重建中的应用。
+二进制编码图案是一种用于三维形状测量的结构光图案。与条纹投影轮廓术相比，它们对噪声更具鲁棒性。我们尝试了二进制编码图案及其在三维形状重建中的应用。实现的代码生成二进制编码图案，将其投影到物体上，捕获变形图案，并重建物体的三维形状。
 
 ## Deep Learning for 3D Reconstruction（深度学习用于三维重建）
 
-Deep learning has shown great potential in various computer vision tasks, including 3D reconstruction. We've studied some recent research papers that apply deep learning techniques to structured light-based 3D shape measurement and reconstruction. We plan to further explore the possibilities of deep learning in this field.
+Deep learning has shown great potential in various computer vision tasks, including 3D reconstruction. We've studied some recent research papers that apply deep learning techniques to structured light-based 3D shape measurement and reconstruction. We plan to further explore the possibilities of deep learning in this field by implementing deep learning algorithms for 3D shape reconstruction from structured light patterns. This will allow us to compare the performance of traditional structured light techniques and deep learning-based approaches.
 
-深度学习在各种计算机视觉任务中表现出了巨大的潜力，包括三维重建。我们研究了一些将深度学习技术应用于基于结构光的三维形状测量和重建的最近研究论文。我们计划进一步探索这一领域深度学习的可能性。
+深度学习在各种计算机视觉任务中表现出了巨大的潜力，包括三维重建。我们研究了一些将深度学习技术应用于基于结构光的三维形状测量和重建的最近研究论文。我们计划通过实现用于从结构光图案中进行三维形状重建的深度学习算法，进一步探讨深度学习在这一领域的可能性。这将使我们能够比较传统结构光技术和基于深度学习的方法的性能。
 
+实验与改进（Experiments and Improvements）
+在本项目中，我们通过调整不同参数，如最大高度、噪声水平和编码方法，对实现的代码进行了多次实验。这些实验使我们能够更好地了解不同因素如何影响条纹投影轮廓术和二进制编码图案的性能。基于这些实验结果，我们计划在未来改进我们的方法，以提高三维重建的准确性和鲁棒性。
+
+In this project, we've conducted several experiments on the implemented code by adjusting different parameters, such as maximum height, noise level, and encoding methods. These experiments allowed us to gain a better understanding of how different factors affect the performance of fringe projection profilometry and binary coded patterns. Based on these experimental results, we plan to improve our methods in the future to enhance the accuracy and robustness of 3D reconstruction.
+
+代码分享（Code Sharing）
+我们将在本项目的GitHub仓库中分享我们实现的代码。这些代码可用于生成结构光图案、捕获变形图案以及从变形图案中重建三维形状。我们希望这些代码能够帮助其他对结构光三维重建感兴趣的人更好地理解这一领域，并为他们提供一个起点，以便进行更深入的研究和实验。
+
+We will be sharing our implemented code in the GitHub repository of this project. The code can be used to generate structured light patterns, capture deformed patterns, and reconstruct 3D shapes from the deformed patterns. We hope that this code will help others interested in structured light 3D reconstruction to gain a better understanding of the field and provide them with a starting point for further research and experimentation.
