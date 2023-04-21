@@ -1,0 +1,20 @@
+# Learning Outcomes（学习成果）
+
+## Fringe Projection Profilometry（条纹投影轮廓术）
+
+In fringe projection profilometry, sinusoidal fringe patterns are projected onto the object, and the deformed patterns are captured by a camera. The phase information is then extracted and unwrapped to obtain the 3D shape of the object. We've implemented a basic simulation of fringe projection profilometry with the addition of Gaussian noise and Gray code encoding.
+
+在条纹投影轮廓术中，正弦条纹图案投影到物体上，相机捕获到变形后的图案。然后提取相位信息并解包以获得物体的三维形状。我们实现了一个基本的条纹投影轮廓术模拟，增加了高斯噪声和格雷码编码。
+
+## Binary Coded Patterns（二进制编码图案）
+
+Binary coded patterns are a type of structured light pattern that can be used for 3D shape measurement. They are more robust to noise compared to fringe projection profilometry. We've experimented with binary coded patterns and how they can be used for 3D shape reconstruction.
+
+二进制编码图案是一种用于三维形状测量的结构光图案。与条纹投影轮廓术相比，它们对噪声更具鲁棒性。我们尝试了二进制编码图案及其在三维形状重建中的应用。
+
+## Deep Learning for 3D Reconstruction（深度学习用于三维重建）
+
+Deep learning has shown great potential in various computer vision tasks, including 3D reconstruction. We've studied some recent research papers that apply deep learning techniques to structured light-based 3D shape measurement and reconstruction. We plan to further explore the possibilities of deep learning in this field.
+
+深度学习在各种计算机视觉任务中表现出了巨大的潜力，包括三维重建。我们研究了一些将深度学习技术应用于基于结构光的三维形状测量和重建的最近研究论文。我们计划进一步探索这一领域深度学习的可能性。
+
