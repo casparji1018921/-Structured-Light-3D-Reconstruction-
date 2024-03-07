@@ -1,5 +1,7 @@
 # Structured-Light-3D-Reconstruction（结构光三维重建）
 
+##以上所有库全部作废！本人因与导师的矛盾已经更换了导师，不再进行结构光方向的研究 所有代码均不会再更新！！！
+## All the above libraries are invalid! I have changed my tutor due to the conflict with my tutor, and no longer conduct research on the direction of structured light. All codes will not be updated!!
 ## Introduction / 介绍
 
 This repository contains personal learning materials and code related to structured light 3D reconstruction. The main goal of this project is to study and implement various structured light techniques for 3D shape measurement and reconstruction, including fringe projection profilometry, binary coded patterns, and the use of deep learning methods. The purpose is to share and communicate, to assist those interested in this topic. Feel free to contact me for any feedback or suggestions.
@@ -18,3 +20,6 @@ The origin of this project is based on a Chinese paper, and let me interested in
 - [High-quality 3D shape measurement using color structured light and passive stereo matching](https://www.osapublishing.org/oe/abstract.cfm?uri=oe-26-23-30422) / [使用彩色结构光和被动立体匹配进行高质量三维形状测量](https://www.osapublishing.org/oe/abstract.cfm?uri=oe-26-23-30422)
 - [A Flexible and Robust 3D Reconstruction System Using RGB-D Camera](https://ieeexplore.ieee.org/document/9224363) / [使用RGB-D相机的灵活且稳健的三维重建系统](https://ieeexplore.ieee.org/document/9224363)
 - [Robust 3D Shape Measurement with Random Binary Patterns and Deep Learning](https://ieeexplore.ieee.org/document/9140655) / [随机二进制模式和深度学习的鲁棒三维形状测量](https://ieeexplore.ieee.org/document/9140655)
+
+
+
